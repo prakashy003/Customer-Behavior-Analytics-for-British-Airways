@@ -143,6 +143,21 @@ Run the notebooks in order within each task folder:
 
 ---
 
+## Project Extensions
+
+The original Forage simulation laid the groundwork. This project is being actively extended beyond the brief with the following additions:
+
+### Phase 1 — Airline Industry Competitor Benchmarking *(in progress)*
+Extending the scraping and NLP pipeline to cover **Emirates, Singapore Airlines, and Qatar Airways** alongside British Airways — four of the most reviewed airlines globally on Skytrax. The goal is to move from a single-airline analysis to a comparative industry view: where does BA genuinely underperform, which complaints are industry-wide, and which are BA-specific? Output will be a unified dataset and a comparative analysis notebook covering rating distributions, per-airline sentiment scores, and top complaint themes by carrier.
+
+### Phase 2 — Interactive Multi-Airline Dashboard (Streamlit)
+A publicly hosted Streamlit web application giving an interactive, side-by-side view of all four airlines. Planned tabs: overall ranking comparison, per-airline sentiment trend over time, NLP topic explorer by rating band, and country-level review heatmap. Will be deployed on Streamlit Cloud with a live URL linked here upon completion.
+
+### Phase 3 — Business Intelligence Report (Power BI)
+A Power BI report built on the final merged dataset — designed to mirror what an internal analyst would present to a leadership team. Covers KPI cards (avg rating, % positive reviews, review volume), cross-airline rating comparison, and a geographic breakdown of reviewer sentiment. The `.pbix` file and exported report screenshots will be committed to the repository.
+
+---
+
 ## Acknowledgements
 
-This project was completed as part of the **British Airways Data Science Virtual Experience Programme** on Forage.
+This project was completed as part of the **British Airways Data Science Virtual Experience Programme** on Forage, and subsequently extended independently to build a broader airline industry analytics platform.
